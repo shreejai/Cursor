@@ -29,7 +29,7 @@ grep -r "your-folder-name" ~/Library/Application\ Support/cursor/User/workspaceS
 ```bash
 /Users/your-name/Library/Application Support/cursor/User/workspaceStorage/<workspace-id>/workspace.json:  "folder": "file:///Users/your-name/repos/your-folder-name"
 ```
-Copy the <workspace-id> from that result.
+Copy the "workspace-id" from that result.
 
 ### 🗑️ Step 3: Delete the Workspace Folder
 This deletes only the Cursor session data for that project. Your actual code is untouched.
